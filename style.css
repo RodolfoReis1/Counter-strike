@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.logo{
+    text-align: center;
+}
+#titulo{
+    font-size: 3em;
+    background-color: green;
+    text-align: center;
+}
+.principal{
+    text-align: center;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px 5px green;
+    font-size: 1.3em;
+    width: 910px;
+    height: 500px;
+    display: inline-block;
+    margin: 14px;
+    box-sizing: border-box
+}
+
+.principal:hover{
+    background-color: rgb(196, 233, 196);
+}
+
+.texto2{
+  text-align: center;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px 5px green;
+    font-size: 1.3em;
+    display: inline-block;
+    margin: 14px;
+    box-sizing: border-box
+}
+
+.texto2:hover{
+    background-color: rgb(196, 233, 196);
+}
+
+.videos{
+  text-align: center;
+}
+
+#video{
+  max-width: 100%;
+  height: auto;
+  box-shadow: 3px 3px 2px green;
+}
+
+#audio{
+
+    /* Personalizar a cor do controle do player de áudio */
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    font-size: 6px;
+    padding: 5px;
+
+  }
+  
+  /* Personalizar a cor dos botões */
+  audio::-webkit-media-controls-start-button,
+  audio::-webkit-media-controls-play-button {
+    background-color: lightgreen;
+    color: green;
+    width: 10px;
+    height: 10px;
+    font-size: 6px;
+  }
+  
+  /* Personalizar a cor dos botões quando em foco/hover */
+  audio::-webkit-media-controls-start-button:hover,
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: green;
+  }
+  
+  /* Personalizar a cor da barra de progresso */
+  audio::-webkit-media-controls-seek-back-button,
+  audio::-webkit-media-controls-seek-forward-button {
+    background-color: black;
+  }
+  
+  /* Personalizar a barra de progresso do áudio */
+  audio::-webkit-media-controls-timeline {
+    background-color: lightgreen;
+  }
+  
+  /* Personalizar a cor do preenchimento da barra de progresso */
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+    color: black;
+  }
